@@ -1,0 +1,82 @@
+@media all and (max-width: 1200px){
+	.container{
+	   
+	    padding: 0 20px;
+	    box-sizing: border-box;   
+	}
+}
+@media all and (max-width: 990px){
+	.menu{
+		display: none;
+	}
+	.contact{
+		display: none;
+	}
+	.menu-bar{
+	    display:inline-block;  
+	}
+	.banner-content-img{
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 40px;
+	}
+}
+@media all and (max-width: 767px){
+	.banner-content h1{		
+		font-size: 50px;
+	}
+	.banner-img img{
+		width: 100%;
+	}
+	.choice-heading h2{
+		font-size: 35px;
+	}
+	.service-title h2{
+		font-size: 35px;
+	}
+	.service{
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 50px;	
+	}
+	.awesome{		
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 40px;
+	}
+	.awesome-title h2{
+		font-size: 35px;
+		text-align: center;
+	}
+	.single-awesome1{
+		text-align: center;		
+	}
+	.single-awesome2{
+		text-align: center;	
+	}
+	.single-awesome3{
+		margin-top: -0px;
+		text-align: center;
+	}
+	
+	.footer{
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 70px;
+	}
+	.footer-list ul{
+		margin: 30px 0;
+	}
+}
+@media all and (max-width: 575px){
+	.service{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.choice-heading{
+		flex-direction: column;
+		text-align: center;
+	}
+	.choice-heading h2{
+		padding-bottom: 40px;
+		padding-right: 0;
+		text-align: center;
+	}
+}
